@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+.link{
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 30px;
+}
+
+.link:hover{
+    color: #007cc4;
+    text-decoration: underline;
+}
+
+nav .link{
+    margin: 0 20px;
+}

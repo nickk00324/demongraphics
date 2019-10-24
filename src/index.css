@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5db1+0,02fceb+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#011566+0,ff5db1+100 */
+background: #011566; /* Old browsers */
+background: -moz-linear-gradient(top,  #011566 0%, #ff5db1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #011566 0%,#ff5db1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #011566 0%,#ff5db1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011566', endColorstr='#ff5db1',GradientType=0 ); /* IE6-9 */
+
+  height: 100vh;
+  font-family: "Futura";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+button {
+  cursor: pointer;
 }
+
+p {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

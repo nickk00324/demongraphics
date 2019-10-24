@@ -1,0 +1,28 @@
+.sign-in-form{
+    margin: 30px auto;
+    text-align: center;
+    width: 400px;
+    color: antiquewhite;
+    box-shadow: 9px 10px 2px -5px rgba(0,0,0,0.42);
+    border: solid 1px black;
+    padding: 20px;
+    
+}
+
+.sign-in-form input{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.smaller-link{
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 16px;
+    width: 60px;
+    margin: 10px auto;
+}
+
+.smaller-link:hover{
+    color: #007cc4;
+    text-decoration: underline;
+}

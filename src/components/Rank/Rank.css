@@ -1,0 +1,21 @@
+header{
+    color: antiquewhite;
+}
+
+.rank, .main-header{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.rank{
+    font-size: 3rem;
+}
+
+.main-header{
+    font-size: 2rem;
+}
+
+.subtitle{
+    padding-bottom: 10px;
+}

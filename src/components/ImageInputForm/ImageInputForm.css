@@ -1,0 +1,37 @@
+input, .submit {
+    height: 50px;
+    margin: 10px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 20px;
+}
+
+.submit {
+    width: 100px;
+    background-color: #011566;
+    color: antiquewhite;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    transition: all .5s;
+    background-color: transparent;
+    border: solid 2px #ff5db1;
+    color: antiquewhite;
+}
+
+
+
+button {
+    box-sizing: content-box;
+    border: none;
+    transition: all .5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #ff5db1;
+}
+
